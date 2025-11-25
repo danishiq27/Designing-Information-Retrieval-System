@@ -22,11 +22,17 @@ A comprehensive information retrieval system for business and sports news articl
 # 4. Run all cells sequentially
 
 📁 Project Structure
-├── information_retrieval_system.ipynb  # Main Colab notebook
-├── Articles.csv                        # Dataset (2692 news articles)
-├── README.md                          # This file
-└── requirements.txt                   # Python dependencies
+├── IR_Code.ipynb              # Main Colab notebook (RECOMMENDED)
+├── IR_Python.py               # Python version (may need adjustments)
+├── Articles.csv               # Dataset (2692 news articles)
+├── README.md                  # This file
+└── requirements.txt           # Python dependencies
 
+
+⚠️ Important Note on File Usage
+Use IR_Code.ipynb for guaranteed execution - This notebook is tested and verified to work correctly in Google Colab.
+
+The IR_Python.py file is provided for reference but may require manual cell execution ordering when run as a script.
 
 🛠️ Local Installation (Alternative)
 If you prefer to run locally:
@@ -42,8 +48,11 @@ cd your-repo-name
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the system
-python ir_system.py
+# For notebook execution (RECOMMENDED)
+jupyter notebook IR_Code.ipynb
+
+# For Python script (may need manual adjustments)
+python IR_Python.py
 
 Dependencies
 rank-bm25==0.2.1
@@ -62,7 +71,6 @@ Columns: Article, Date, Heading, NewsType
 🔍 Features Implemented
 Retrieval Methods
 Boolean Retrieval - Exact term matching with AND logic
-
 BM25 - Probabilistic relevance scoring
 TF-IDF - Vector space model with cosine similarity
 Hybrid - BM25 recall + TF-IDF precision ranking
