@@ -15,7 +15,7 @@ A comprehensive information retrieval system for business and sports news articl
 # 1. Upload the notebook to Google Colab
 # 2. Run these commands in order:
 
-!git clone https://github.com/yourusername/your-repo-name.git
+!git clone https://github.com/danishiq27/Designing-Information-Retrieval-System.git
 %cd your-repo-name
 
 # 3. Upload Articles.csv when prompted
@@ -36,7 +36,7 @@ Python 3.8+
 
 Installation Steps
 # Clone repository
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/danishiq27/Designing-Information-Retrieval-System.git
 cd your-repo-name
 
 # Install dependencies
